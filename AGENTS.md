@@ -28,6 +28,9 @@ When the student asks for a plan, give it in words and write no code until the s
 
 The student replaces the three lines below and adds a line each time they correct the assistant on the same point twice.
 
-- Question: (one sentence)
-- Data: (the file in `data/`, what one row is, and its source URL and access date)
+- Question: How has total rainfall in Washington changed from Jan 1, 2023 to Oct 27, 2026?
+- Data: All CSV files in data/ with an emphasis on all files starting with "PRECIP" as they contain the actual precipitation volumes. For those files, each row is a listing of the site id, date of record, precipitation volume in that day in inches, and total measurements made for the day. The remaining file titled SiteData.csv exists to catalogue the geographical position of each site as well as specifying if a site is isolated (I) or rural (R). I plan to use the information in SiteData.csv to generate a topographical map of my analysis as well as additional analysis between site types. 
+The source is https://nadp.slh.wisc.edu/networks/nadp-precipitation-network/ and was accessed on 2026-11-07.
+
 - Measured variable: (its column name and unit)
+The measured variable is daily precipitation volume which is catalogued in columns titled "qualifiedPrecipInches" in all CSVs beginning with "PRECIP", these values have units of inches.

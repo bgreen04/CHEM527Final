@@ -1,8 +1,8 @@
 # 001: Write `.gitignore`
 
 - **Status:** active
-- **Created:** YYYY-MM-DD
-- **Updated:** YYYY-MM-DD
+- **Created:** 2026-11-07
+- **Updated:** 2026-11-07
 - **Due:** 2026-11-01, before task 002
 
 ## Goal
