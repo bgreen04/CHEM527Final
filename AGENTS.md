@@ -28,9 +28,12 @@ When the student asks for a plan, give it in words and write no code until the s
 
 The student replaces the three lines below and adds a line each time they correct the assistant on the same point twice.
 
-- Question: How has total rainfall in Washington changed from Jan 1, 2023 to Oct 27, 2026?
-- Data: All CSV files in data/ with an emphasis on all files starting with "PRECIP" as they contain the actual precipitation volumes. For those files, each row is a listing of the site id, date of record, precipitation volume in that day in inches, and total measurements made for the day. The remaining file titled SiteData.csv exists to catalogue the geographical position of each site as well as specifying if a site is isolated (I) or rural (R). I plan to use the information in SiteData.csv to generate a topographical map of my analysis as well as additional analysis between site types. 
-The source is https://nadp.slh.wisc.edu/networks/nadp-precipitation-network/ and was accessed on 2026-11-07.
+- Question: How has the pH and ion content of rainwater changed across the USA over time?
+
+- Data: Two data files: BulkIonsData.csv which contains all recorded data points directly used in analysis. Each data point corresponds to a week of rainwater data from a given site. The remaining file titled ntnSites.csv exists to catalogue the geographical position of each site as well as specifying extra information about the nature of the site such as if its rural, urban, isolated, etc. I plan to use the information in ntnSites.csv to generate a topographical map of my analysis as well as additional analysis between site types. 
+Both files came from nadp.slh.wisc.edu/networks/national-trends-network/ accessed on 2026-11-13.
 
 - Measured variable: (its column name and unit)
-The measured variable is daily precipitation volume which is catalogued in columns titled "qualifiedPrecipInches" in all CSVs beginning with "PRECIP", these values have units of inches.
+For ease of writing, the following variables will be defined as "column name: unit, column name: unit, etc...
+In BulkionsData.CSV, ph: pH, conduc: uS/cm, Ca: mg/L, Mg: mg/L, Na: mg/L, NH4: mg/L, NO3: mg/L, Cl: mg/L, SO4: mg/L, Br: mg/L, svol: ml, ppt, mm, subppt: mm.
+In ntnSites.csv, latitude: degrees, longitude: degrees, elevation: m.

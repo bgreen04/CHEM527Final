@@ -1,7 +1,7 @@
-**Question:** How has total rainfall in Washington changed from Jan 1, 2023 to Oct 27, 2026?
+**Question:** How has the pH and ion content of rainwater changed across the USA over time?
 
-**Data Source:** https://nadp.slh.wisc.edu/networks/nadp-precipitation-network/
+**Data Source:** nadp2.slh.wisc.edu/data/ntn/ntnAllsites.aspx
 
-**Date Accessed:** 2026-11-07
+**Date Accessed:** 2026-11-13
 
-After a preliminary analysis of the data, I would say that it has sufficient volume with a total of 9903 data entries spread across 8 sites. The one thing lacking is the diversity of the data as each data point is only rainfall volume in inches, but no other data is needed to answer my question. If the data turns out to not answer my question, I can get an alternative data set from the same source or include previously excluded sites from the original source.
+This dataset should have more than enough data for the question I'm trying to answer with over 280000 individual data points spanning decades from over 200 individual monitoring sites across the USA. Each site measures 12+ unique variables pertaining to the rainwater including various ions, pH, conductance, and sample volume. If this dataset can't answer my question, I'll have to completely change topics because I have no idea how this dataset wouldn't answer my question.
