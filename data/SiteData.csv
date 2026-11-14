@@ -1,9 +1,0 @@
-network,siteID,siteName,county,latitude,longitude,elevation,siteClass
-NPN,WA03,Makah National Fish Hatchery,Clallam,48.2892,-124.6519,6,I
-NPN,WA04,Confederated Tribes of the Umatilla Indian Reservation,Columbia,46.2026,-117.9539,681, 
-NPN,WA14,Olympic National Park-Hoh Ranger Station,Jefferson,47.8597,-123.9325,182,I
-NPN,WA19,North Cascades National Park-Marblemount Ranger Station,Skagit,48.5403,-121.446,124,I
-NPN,WA21,La Grande,Pierce,46.8353,-122.2867,617,R
-NPN,WA24,Palouse Conservation Farm,Whitman,46.7606,-117.1847,766,R
-NPN,WA98,Columbia River Gorge,Skamania,45.5694,-122.21,233,R
-NPN,WA99,Mount Rainier National Park-Tahoma Woods,Pierce,46.7582,-122.1243,424,I
